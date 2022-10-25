@@ -1,5 +1,5 @@
 baseurl      = "https://roflrolle.github.io"
-title        = "My Blog"
+title        = "roflrolle"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
@@ -12,7 +12,7 @@ publishDir = "docs"
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "A simple and beautiful blog"
+  homeSubtitle = "everything i know"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -21,7 +21,7 @@ publishDir = "docs"
   enableSharingButtons = true
 
   # Metadata mostly used in document's head
-  description = "My new homepage or blog"
+  description = "roflrolle"
   keywords = "homepage, blog"
   images = [""]
 
