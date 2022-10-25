@@ -39,7 +39,7 @@ publishDir = "docs"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "roflrolle"
+      logoText = "azure | powershell | cloud"
       logoHomeLink = "/"
     # or
     #
