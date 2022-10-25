@@ -15,8 +15,15 @@
             <pubDate>Tue, 25 Oct 2022 20:56:35 +0200</pubDate>
             
             <guid>https://roflrolle.github.io/posts/examplepost/</guid>
-            <description></description>
-            <content type="html"><![CDATA[]]></content>
+            <description>HEllo this is my test post I am creating this to test my first site.
+Only a few things written here.
+Write-Output &amp;#34;TEST&amp;#34; Get-Childitem -Path &amp;#34;C:&amp;#34; </description>
+            <content type="html"><![CDATA[<h1 id="hello-this-is-my-test-post">HEllo this is my test post</h1>
+<p>I am creating this to test my first site.<br>
+Only a few things written here.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>Write-Output <span style="color:#e6db74">&#34;TEST&#34;</span>
+</span></span><span style="display:flex;"><span>Get-Childitem -Path <span style="color:#e6db74">&#34;C:&#34;</span>
+</span></span></code></pre></div>]]></content>
         </item>
         
     </channel>

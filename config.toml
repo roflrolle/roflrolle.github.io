@@ -18,7 +18,7 @@ publishDir = "docs"
   disableReadOtherPosts = false
 
   # Enable sharing buttons, if you like
-  enableSharingButtons = true
+  enableSharingButtons = false
 
   # Metadata mostly used in document's head
   description = "roflrolle"
