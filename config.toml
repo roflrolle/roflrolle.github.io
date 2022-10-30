@@ -4,6 +4,7 @@ languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
 publishDir = "docs"
+enableEmoji = true
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -12,7 +13,7 @@ publishDir = "docs"
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "everything i know"
+  homeSubtitle = ""
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
