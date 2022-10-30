@@ -14,9 +14,9 @@
       <pubDate>Tue, 25 Oct 2022 20:56:35 +0200</pubDate>
       
       <guid>https://roflrolle.github.io/posts/examplepost/</guid>
-      <description>HEllo this is my test post I am creating this to test my first site.
+      <description>Hello this is my test post I am creating this to test my first site.
 Only a few things written here.
-Write-Output &amp;#34;TEST&amp;#34; Get-Childitem -Path &amp;#34;C:&amp;#34; </description>
+SoureCode Write-Output &amp;#34;TEST&amp;#34; Get-Childitem -Path &amp;#34;C:&amp;#34; This is the end </description>
     </item>
     
   </channel>
