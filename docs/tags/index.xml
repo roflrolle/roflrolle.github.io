@@ -2,18 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on roflrolle</title>
-    <link>https://roflrolle.github.io/tags/</link>
+    <link>https://roflrolle.de/tags/</link>
     <description>Recent content in Tags on roflrolle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 30 Oct 2022 19:05:11 +0100</lastBuildDate><atom:link href="https://roflrolle.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Oct 2022 19:05:11 +0100</lastBuildDate><atom:link href="https://roflrolle.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>untagged</title>
-      <link>https://roflrolle.github.io/tags/untagged/</link>
+      <title>AWS</title>
+      <link>https://roflrolle.de/tags/aws/</link>
       <pubDate>Sun, 30 Oct 2022 19:05:11 +0100</pubDate>
       
-      <guid>https://roflrolle.github.io/tags/untagged/</guid>
+      <guid>https://roflrolle.de/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Azure</title>
+      <link>https://roflrolle.de/tags/azure/</link>
+      <pubDate>Sun, 30 Oct 2022 19:05:11 +0100</pubDate>
+      
+      <guid>https://roflrolle.de/tags/azure/</guid>
       <description></description>
     </item>
     

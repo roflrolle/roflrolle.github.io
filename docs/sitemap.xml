@@ -2,38 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://roflrolle.github.io/posts/</loc>
+    <loc>https://roflrolle.de/tags/aws/</loc>
     <lastmod>2022-10-30T19:05:11+01:00</lastmod>
   </url><url>
-    <loc>https://roflrolle.github.io/</loc>
+    <loc>https://roflrolle.de/tags/azure/</loc>
     <lastmod>2022-10-30T19:05:11+01:00</lastmod>
   </url><url>
-    <loc>https://roflrolle.github.io/tags/</loc>
+    <loc>https://roflrolle.de/posts/</loc>
     <lastmod>2022-10-30T19:05:11+01:00</lastmod>
   </url><url>
-    <loc>https://roflrolle.github.io/posts/test6/</loc>
+    <loc>https://roflrolle.de/</loc>
     <lastmod>2022-10-30T19:05:11+01:00</lastmod>
   </url><url>
-    <loc>https://roflrolle.github.io/tags/untagged/</loc>
+    <loc>https://roflrolle.de/tags/</loc>
     <lastmod>2022-10-30T19:05:11+01:00</lastmod>
   </url><url>
-    <loc>https://roflrolle.github.io/posts/test4/</loc>
+    <loc>https://roflrolle.de/posts/test6/</loc>
+    <lastmod>2022-10-30T19:05:11+01:00</lastmod>
+  </url><url>
+    <loc>https://roflrolle.de/posts/test4/</loc>
     <lastmod>2022-10-30T19:05:07+01:00</lastmod>
   </url><url>
-    <loc>https://roflrolle.github.io/posts/test5/</loc>
+    <loc>https://roflrolle.de/posts/test5/</loc>
     <lastmod>2022-10-30T19:05:03+01:00</lastmod>
   </url><url>
-    <loc>https://roflrolle.github.io/posts/test3/</loc>
+    <loc>https://roflrolle.de/posts/test3/</loc>
     <lastmod>2022-10-30T19:04:59+01:00</lastmod>
   </url><url>
-    <loc>https://roflrolle.github.io/posts/test2/</loc>
+    <loc>https://roflrolle.de/posts/test2/</loc>
     <lastmod>2022-10-30T19:04:54+01:00</lastmod>
   </url><url>
-    <loc>https://roflrolle.github.io/posts/examplepost/</loc>
+    <loc>https://roflrolle.de/posts/examplepost/</loc>
     <lastmod>2022-10-25T20:56:35+02:00</lastmod>
   </url><url>
-    <loc>https://roflrolle.github.io/blog/</loc>
+    <loc>https://roflrolle.de/blog/</loc>
   </url><url>
-    <loc>https://roflrolle.github.io/series/</loc>
+    <loc>https://roflrolle.de/series/</loc>
   </url>
 </urlset>
