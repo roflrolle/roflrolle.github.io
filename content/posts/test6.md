@@ -5,6 +5,7 @@ draft: false
 toc: false
 images:
 tags:
-  - untagged
+  - AZure
+  - AWS
 ---
 

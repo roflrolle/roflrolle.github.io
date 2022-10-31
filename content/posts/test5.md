@@ -5,6 +5,6 @@ draft: false
 toc: false
 images:
 tags:
-  - untagged
+  - AzURE
 ---
 

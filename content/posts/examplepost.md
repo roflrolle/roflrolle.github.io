@@ -5,7 +5,7 @@ draft: false
 toc: true
 images:
 tags:
-  - untagged
+  - Azure
 ---
 
 ## Hello this is my test post
