@@ -37,6 +37,10 @@ $MyWeather=Invoke-RestMethod -Uri $urlWeather -Method Get
 Write-Output "--- $($myweather.name) | $($MyWeather.main.temp)° | $($MyWeather.weather.description) ---"
 ````
 
+### Example Output
+
+![Example Output](/weather1.png)
+
 ### Response structure
 
 The response structure can be found on the Openweather website and looks something like this:
