@@ -2,37 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://roflrolle.de/tags/aws/</loc>
-    <lastmod>2022-10-30T19:05:11+01:00</lastmod>
-  </url><url>
-    <loc>https://roflrolle.de/tags/azure/</loc>
-    <lastmod>2022-10-30T19:05:11+01:00</lastmod>
-  </url><url>
-    <loc>https://roflrolle.de/posts/</loc>
-    <lastmod>2022-10-30T19:05:11+01:00</lastmod>
-  </url><url>
-    <loc>https://roflrolle.de/</loc>
-    <lastmod>2022-10-30T19:05:11+01:00</lastmod>
-  </url><url>
-    <loc>https://roflrolle.de/tags/</loc>
-    <lastmod>2022-10-30T19:05:11+01:00</lastmod>
-  </url><url>
-    <loc>https://roflrolle.de/posts/test6/</loc>
-    <lastmod>2022-10-30T19:05:11+01:00</lastmod>
-  </url><url>
-    <loc>https://roflrolle.de/posts/test4/</loc>
-    <lastmod>2022-10-30T19:05:07+01:00</lastmod>
-  </url><url>
-    <loc>https://roflrolle.de/posts/test5/</loc>
-    <lastmod>2022-10-30T19:05:03+01:00</lastmod>
-  </url><url>
-    <loc>https://roflrolle.de/posts/test3/</loc>
-    <lastmod>2022-10-30T19:04:59+01:00</lastmod>
-  </url><url>
-    <loc>https://roflrolle.de/posts/test2/</loc>
-    <lastmod>2022-10-30T19:04:54+01:00</lastmod>
+    <loc>https://roflrolle.de/tags/api/</loc>
+    <lastmod>2022-10-25T20:56:35+02:00</lastmod>
   </url><url>
     <loc>https://roflrolle.de/posts/examplepost/</loc>
+    <lastmod>2022-10-25T20:56:35+02:00</lastmod>
+  </url><url>
+    <loc>https://roflrolle.de/posts/</loc>
+    <lastmod>2022-10-25T20:56:35+02:00</lastmod>
+  </url><url>
+    <loc>https://roflrolle.de/tags/powershell/</loc>
+    <lastmod>2022-10-25T20:56:35+02:00</lastmod>
+  </url><url>
+    <loc>https://roflrolle.de/</loc>
+    <lastmod>2022-10-25T20:56:35+02:00</lastmod>
+  </url><url>
+    <loc>https://roflrolle.de/tags/</loc>
     <lastmod>2022-10-25T20:56:35+02:00</lastmod>
   </url><url>
     <loc>https://roflrolle.de/blog/</loc>

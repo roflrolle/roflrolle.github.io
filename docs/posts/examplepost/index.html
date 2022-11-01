@@ -5,10 +5,13 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
-<meta name="description" content="Hello this is my test post I am creating this to test my first site.
-Only a few things written here.
-SoureCode Write-Output &amp;#34;TEST&amp;#34; Get-Childitem -Path &amp;#34;C:&amp;#34; This is the end TEstwriting" />
-<meta name="keywords" content=", Azure" />
+<meta name="description" content="We will display the current weather with a small Powershell script.
+To retrieve the weather we need a free API key from https://openweathermap.org/ .
+Openweather Api Key Go to the OpenWeather website and create a free account =&amp;gt; https://openweathermap.org/ .
+Then in your settings you can create your free API key and use it in your script.
+Powershell Script In the first line insert your own API key.
+The second and third line is your ZIP and Country code you like to use." />
+<meta name="keywords" content=", Powershell, API" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
 <link rel="canonical" href="https://roflrolle.de/posts/examplepost/" />
@@ -16,7 +19,7 @@ SoureCode Write-Output &amp;#34;TEST&amp;#34; Get-Childitem -Path &amp;#34;C:&am
 
     <title>
         
-            Examplepost :: roflrolle  — everything i know
+            Display the current weather with Powershell :: roflrolle  — everything i know
         
     </title>
 
@@ -40,27 +43,36 @@ SoureCode Write-Output &amp;#34;TEST&amp;#34; Get-Childitem -Path &amp;#34;C:&am
     <meta name="msapplication-TileColor" content="">
 
 
-<meta itemprop="name" content="Examplepost">
-<meta itemprop="description" content="Hello this is my test post I am creating this to test my first site.
-Only a few things written here.
-SoureCode Write-Output &#34;TEST&#34; Get-Childitem -Path &#34;C:&#34; This is the end TEstwriting"><meta itemprop="datePublished" content="2022-10-25T20:56:35+02:00" />
+<meta itemprop="name" content="Display the current weather with Powershell">
+<meta itemprop="description" content="We will display the current weather with a small Powershell script.
+To retrieve the weather we need a free API key from https://openweathermap.org/ .
+Openweather Api Key Go to the OpenWeather website and create a free account =&gt; https://openweathermap.org/ .
+Then in your settings you can create your free API key and use it in your script.
+Powershell Script In the first line insert your own API key.
+The second and third line is your ZIP and Country code you like to use."><meta itemprop="datePublished" content="2022-10-25T20:56:35+02:00" />
 <meta itemprop="dateModified" content="2022-10-25T20:56:35+02:00" />
-<meta itemprop="wordCount" content="32"><meta itemprop="image" content="https://roflrolle.de"/>
-<meta itemprop="keywords" content="Azure," />
+<meta itemprop="wordCount" content="212"><meta itemprop="image" content="https://roflrolle.de"/>
+<meta itemprop="keywords" content="Powershell,API," />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://roflrolle.de"/>
 
-<meta name="twitter:title" content="Examplepost"/>
-<meta name="twitter:description" content="Hello this is my test post I am creating this to test my first site.
-Only a few things written here.
-SoureCode Write-Output &#34;TEST&#34; Get-Childitem -Path &#34;C:&#34; This is the end TEstwriting"/>
+<meta name="twitter:title" content="Display the current weather with Powershell"/>
+<meta name="twitter:description" content="We will display the current weather with a small Powershell script.
+To retrieve the weather we need a free API key from https://openweathermap.org/ .
+Openweather Api Key Go to the OpenWeather website and create a free account =&gt; https://openweathermap.org/ .
+Then in your settings you can create your free API key and use it in your script.
+Powershell Script In the first line insert your own API key.
+The second and third line is your ZIP and Country code you like to use."/>
 
 
 
-    <meta property="og:title" content="Examplepost" />
-<meta property="og:description" content="Hello this is my test post I am creating this to test my first site.
-Only a few things written here.
-SoureCode Write-Output &#34;TEST&#34; Get-Childitem -Path &#34;C:&#34; This is the end TEstwriting" />
+    <meta property="og:title" content="Display the current weather with Powershell" />
+<meta property="og:description" content="We will display the current weather with a small Powershell script.
+To retrieve the weather we need a free API key from https://openweathermap.org/ .
+Openweather Api Key Go to the OpenWeather website and create a free account =&gt; https://openweathermap.org/ .
+Then in your settings you can create your free API key and use it in your script.
+Powershell Script In the first line insert your own API key.
+The second and third line is your ZIP and Country code you like to use." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://roflrolle.de/posts/examplepost/" /><meta property="og:image" content="https://roflrolle.de"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-10-25T20:56:35+02:00" />
@@ -144,7 +156,7 @@ SoureCode Write-Output &#34;TEST&#34; Get-Childitem -Path &#34;C:&#34; This is t
 
     <article>
       <h1 class="post-title">
-        <a href="https://roflrolle.de/posts/examplepost/">Examplepost</a>
+        <a href="https://roflrolle.de/posts/examplepost/">Display the current weather with Powershell</a>
       </h1>
 
       
@@ -155,12 +167,12 @@ SoureCode Write-Output &#34;TEST&#34; Get-Childitem -Path &#34;C:&#34; This is t
           <div class="toc-title">Table of Contents</div>
           <nav id="TableOfContents">
   <ul>
-    <li><a href="#hello-this-is-my-test-post">Hello this is my test post</a>
+    <li><a href="#openweather-api-key">Openweather Api Key</a></li>
+    <li><a href="#powershell-script">Powershell Script</a>
       <ul>
-        <li><a href="#sourecode">SoureCode</a></li>
+        <li><a href="#response-structure">Response structure</a></li>
       </ul>
     </li>
-    <li><a href="#this-is-the-end">This is the end</a></li>
   </ul>
 </nav>
         </aside>
@@ -169,15 +181,80 @@ SoureCode Write-Output &#34;TEST&#34; Get-Childitem -Path &#34;C:&#34; This is t
       
 
       <div class="post-content">
-        <h2 id="hello-this-is-my-test-post">Hello this is my test post</h2>
-<p>I am creating this to test my first site.<br>
-Only a few things written here.</p>
-<h3 id="sourecode">SoureCode</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>Write-Output <span style="color:#e6db74">&#34;TEST&#34;</span>
-</span></span><span style="display:flex;"><span>Get-Childitem -Path <span style="color:#e6db74">&#34;C:&#34;</span>
-</span></span></code></pre></div><h2 id="this-is-the-end">This is the end</h2>
-<p>TEstwriting</p>
-
+        <p>We will display the current weather with a small Powershell script.<br>
+To retrieve the weather we need a free API key from <a href="https://openweathermap.org/">https://openweathermap.org/</a> .</p>
+<h2 id="openweather-api-key">Openweather Api Key</h2>
+<p>Go to the OpenWeather website and create a free account =&gt; <a href="https://openweathermap.org/">https://openweathermap.org/</a> .<br>
+Then in your settings you can create your free API key and use it in your script.</p>
+<h2 id="powershell-script">Powershell Script</h2>
+<p>In the first line insert your own API key.<br>
+The second and third line is your ZIP and Country code you like to use.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>$apikey=<span style="color:#e6db74">&#34;MYAPIKEY&#34;</span>
+</span></span><span style="display:flex;"><span>$zipcode=<span style="color:#e6db74">&#34;90765&#34;</span>
+</span></span><span style="display:flex;"><span>$country=<span style="color:#e6db74">&#34;de&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$urlcoordinates=<span style="color:#e6db74">&#34;http://api.openweathermap.org/geo/1.0/zip?zip=</span>$($zipcode)<span style="color:#e6db74">,</span>$($country)<span style="color:#e6db74">&amp;appid=</span>$($apikey)<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$MyCoordinates=Invoke-RestMethod -Uri $urlcoordinates -Method Get
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$urlWeather=<span style="color:#e6db74">&#34;https://api.openweathermap.org/data/2.5/weather?units=metric&amp;lat=</span>$($MyCoordinates.lat)<span style="color:#e6db74">&amp;lon=</span>$($MyCoordinates.lon)<span style="color:#e6db74">&amp;appid=</span>$($apikey)<span style="color:#e6db74">&amp;lang=de&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$MyWeather=Invoke-RestMethod -Uri $urlWeather -Method Get
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Write-Output <span style="color:#e6db74">&#34;--- </span>$($myweather.name)<span style="color:#e6db74"> | </span>$($MyWeather.main.temp)<span style="color:#e6db74">° | </span>$($MyWeather.weather.description)<span style="color:#e6db74"> ---&#34;</span>
+</span></span></code></pre></div><h3 id="response-structure">Response structure</h3>
+<p>The response structure can be found on the Openweather website and looks something like this:
+<a href="https://openweathermap.org/current#current_JSON">https://openweathermap.org/current#current_JSON</a></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;coord&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;lon&#34;</span>: <span style="color:#ae81ff">10.99</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;lat&#34;</span>: <span style="color:#ae81ff">44.34</span>
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;weather&#34;</span>: [
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;id&#34;</span>: <span style="color:#ae81ff">501</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;main&#34;</span>: <span style="color:#e6db74">&#34;Rain&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;description&#34;</span>: <span style="color:#e6db74">&#34;moderate rain&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&#34;icon&#34;</span>: <span style="color:#e6db74">&#34;10d&#34;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  ],
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;base&#34;</span>: <span style="color:#e6db74">&#34;stations&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;main&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;temp&#34;</span>: <span style="color:#ae81ff">298.48</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;feels_like&#34;</span>: <span style="color:#ae81ff">298.74</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;temp_min&#34;</span>: <span style="color:#ae81ff">297.56</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;temp_max&#34;</span>: <span style="color:#ae81ff">300.05</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;pressure&#34;</span>: <span style="color:#ae81ff">1015</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;humidity&#34;</span>: <span style="color:#ae81ff">64</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;sea_level&#34;</span>: <span style="color:#ae81ff">1015</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;grnd_level&#34;</span>: <span style="color:#ae81ff">933</span>
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;visibility&#34;</span>: <span style="color:#ae81ff">10000</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;wind&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;speed&#34;</span>: <span style="color:#ae81ff">0.62</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;deg&#34;</span>: <span style="color:#ae81ff">349</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;gust&#34;</span>: <span style="color:#ae81ff">1.18</span>
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;rain&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;1h&#34;</span>: <span style="color:#ae81ff">3.16</span>
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;clouds&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;all&#34;</span>: <span style="color:#ae81ff">100</span>
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;dt&#34;</span>: <span style="color:#ae81ff">1661870592</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;sys&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;type&#34;</span>: <span style="color:#ae81ff">2</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;id&#34;</span>: <span style="color:#ae81ff">2075663</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;country&#34;</span>: <span style="color:#e6db74">&#34;IT&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;sunrise&#34;</span>: <span style="color:#ae81ff">1661834187</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;sunset&#34;</span>: <span style="color:#ae81ff">1661882248</span>
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;timezone&#34;</span>: <span style="color:#ae81ff">7200</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;id&#34;</span>: <span style="color:#ae81ff">3163858</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;Zocca&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;cod&#34;</span>: <span style="color:#ae81ff">200</span>
+</span></span><span style="display:flex;"><span>}                     
+</span></span></code></pre></div>
       </div>
     </article>
 
@@ -188,7 +265,8 @@ Only a few things written here.</p>
     <p>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
 
-        <span class="tag"><a href="https://roflrolle.de/tags/azure/">Azure</a></span>
+        <span class="tag"><a href="https://roflrolle.de/tags/powershell/">Powershell</a></span>
+        <span class="tag"><a href="https://roflrolle.de/tags/api/">API</a></span>
         
     </p>
 
@@ -202,7 +280,7 @@ Only a few things written here.</p>
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        32 Words
+        212 Words
       </p>
 
       <p>
@@ -223,28 +301,6 @@ Only a few things written here.</p>
     </div>
 
     
-    <div class="pagination">
-        
-        <div class="pagination__title">
-            <span class="pagination__title-h">Read other posts</span>
-            <hr />
-        </div>
-        
-
-        <div class="pagination__buttons">
-            
-            <span class="button previous">
-                <a href="https://roflrolle.de/posts/test2/">
-                    <span class="button__icon">←</span>
-                    <span class="button__text">Test2</span>
-                </a>
-            </span>
-            
-
-            
-        </div>
-    </div>
-
 
     
 
