@@ -1,0 +1,28 @@
+{{ define "main" }}
+    {{ $paginator := .Paginate .Data.Pages }}
+    
+    <main class="posts">
+                <div class="posts-group">
+            {{ range $s := .Data.Pages.GroupBy "Section" }}
+                {{ with $.Site.GetPage "section" .Key }}
+                <div class="post-year">{{.Title}}</div>
+                {{ else }}
+                     <h3>{{ .Key | title }}</h3>
+                {{ end }}
+                <ul class="posts-list">
+                    {{ range $s.Pages }}
+                    <li class="post-item">
+                        <a href="{{ .Permalink }}"><span class="post-title"></span>{{ .Title }}</span></a>
+                    </li>
+                    {{ end }}
+                </ul>
+            {{ end }}
+            </div>
+
+
+            <hr>
+
+    {{ partial "footer.html" . }}
+            
+    </main>
+{{ end }}

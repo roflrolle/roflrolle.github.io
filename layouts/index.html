@@ -13,11 +13,11 @@
             {{ partial "subtitle.html" . }}
 
             <ul class="posts-list">
-                    {{ range first 5 .Site.RegularPages }}
+                    {{ range first 5 (where .Site.RegularPages "Layout" "!=" "staticpage") }}
                         <li class="post-item">
                             <a href="{{.Permalink}}">
-                                <span class="post-title">{{.Title}}</span>
-                                <span class="post-day"> -
+                                <span class="">{{.Title}}</span>
+                                <span class=""> -
                                     {{ if .Site.Params.dateformShort }}
                                         {{ .Date.Format .Site.Params.dateformShort }}
                                     {{ else }}

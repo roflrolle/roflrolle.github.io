@@ -18,19 +18,22 @@ Go to the OpenWeather website and create a free account => <https://openweatherm
 Then in your settings you can create your free API key and use it in your script.  
 
 ## Powershell Script
+
 In the first line insert your own API key.  
 The second and third line is your ZIP and Country code you like to use.  
+I want to display the weather condition in german so i also specify this with a language code.
 
 ````powershell
 $apikey="MYAPIKEY"
 $zipcode="90765"
 $country="de"
+$countryMessage="de"
 
 $urlcoordinates="http://api.openweathermap.org/geo/1.0/zip?zip=$($zipcode),$($country)&appid=$($apikey)"
 
 $MyCoordinates=Invoke-RestMethod -Uri $urlcoordinates -Method Get
 
-$urlWeather="https://api.openweathermap.org/data/2.5/weather?units=metric&lat=$($MyCoordinates.lat)&lon=$($MyCoordinates.lon)&appid=$($apikey)&lang=de"
+$urlWeather="https://api.openweathermap.org/data/2.5/weather?units=metric&lat=$($MyCoordinates.lat)&lon=$($MyCoordinates.lon)&appid=$($apikey)&lang=$($countryMessage)"
 
 $MyWeather=Invoke-RestMethod -Uri $urlWeather -Method Get
 

@@ -10,10 +10,10 @@
     <lastBuildDate>Tue, 25 Oct 2022 20:56:35 +0200</lastBuildDate><atom:link href="https://roflrolle.de/tags/api/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Display the current weather with Powershell</title>
-      <link>https://roflrolle.de/posts/examplepost/</link>
+      <link>https://roflrolle.de/posts/2022-10-weather/</link>
       <pubDate>Tue, 25 Oct 2022 20:56:35 +0200</pubDate>
       
-      <guid>https://roflrolle.de/posts/examplepost/</guid>
+      <guid>https://roflrolle.de/posts/2022-10-weather/</guid>
       <description>We will display the current weather with a small Powershell script.
 To retrieve the weather we need a free API key from https://openweathermap.org/ .
 Openweather Api Key Go to the OpenWeather website and create a free account =&amp;gt; https://openweathermap.org/ .

@@ -48,7 +48,16 @@ enableEmoji = true
     # alt = "Your example logo alt text"
 
   # And you can even create generic menu
+  [menu]
   [[menu.main]]
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
+   [[menu.main]]
+    identifier = "aboutme"
+    name       = "AboutMe"
+    url        = "/posts/aboutme"
+      [[menu.main]]
+    identifier = "topics"
+    name       = "Topics"
+    url        = "/tags"
